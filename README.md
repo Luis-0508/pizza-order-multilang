@@ -1,28 +1,43 @@
-# Pizza Order Multi-Language
+# 🍕 Pizza Order Multi-Language
 
-A simple pizza ordering web app with multi-language support (currently English & German).
+A simple and user-friendly **pizza ordering web app** with support for multiple languages (currently English & German).
 
-## Features
+---
 
-- Select name and pizza toppings  
-- Multi-language UI with dynamic translations  
-- Summary view of all orders  
+## 🚀 Features
 
-## Setup
+- 📝 Enter your name and choose pizza toppings  
+- 🌐 Dynamic multi-language user interface with easy language switching  
+- 📋 Summary view displaying all placed orders  
 
-Just open `index.html` in a modern browser (serve via local server for fetch support).
+---
 
-## Languages
+## ⚙️ Setup
 
-Stored in `locales/lang_en.json`, `locales/lang_de.json`.
+Simply open `index.html` in a modern browser.  
+For full functionality (fetch API), serve it via a local web server (e.g. `Live Server` extension in VSCode).
 
-## Roadmap
+---
 
-- Add more languages  
-- Persist orders in local storage  
-- Responsive UI improvements  
-- Backend integration
+## 🌍 Languages
 
-## License
+Translations are stored as JSON files in the `locales` folder:  
+- `locales/lang_en.json` (English)  
+- `locales/lang_de.json` (German)  
 
-MIT License
+Adding new languages is straightforward by adding additional JSON files.
+
+---
+
+## 🛠️ Roadmap
+
+- ➕ Add support for more languages  
+- 💾 Persist orders using browser local storage  
+- 📱 Improve responsiveness and mobile UI  
+- 🔌 Integrate with backend for order processing  
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
