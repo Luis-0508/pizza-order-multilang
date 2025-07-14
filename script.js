@@ -97,8 +97,9 @@ function buildToppings(toppings) {
     });
 }
 
-// Save one order, reset form
-function naechster() {
+
+// Saves one order and resets the form
+function addOrder() {
     const name = elements.nameInput.value.trim();
     if (!name) {
         alert(t('alertNoName'));
@@ -117,8 +118,8 @@ function naechster() {
     document.querySelectorAll('.topping.selected').forEach(div => div.classList.remove('selected'));
 }
 
-// Finalize and show summary
-function fertig() {
+// Shows order summary and hides form
+function finalizeOrders() {
     const name = elements.nameInput.value.trim();
     const selectedToppings = Array.from(document.querySelectorAll('.topping.selected'))
         .map(div => div.dataset.topping);
@@ -142,8 +143,8 @@ function fertig() {
         if (entry.toppings.length === 0) {
             text += "   " + t('summaryNoToppings') + "\n";
         } else {
-            entry.toppings.forEach(z => {
-                text += `   - ${z}\n`;
+            entry.toppings.forEach(topping => {
+                text += `   - ${topping}\n`;
             });
         }
         text += '\n';
