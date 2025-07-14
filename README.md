@@ -1,14 +1,15 @@
-# 🍕 Pizza Order Multi-Language
+# 🍕 Pizza Order Tool
 
-A simple and user-friendly **pizza ordering web app** with support for multiple languages (currently English & German).
+A simple and user-friendly **pizza ordering web app** with support for multiple languages (currently English & German).  
+Designed to quickly collect pizza orders in group settings such as small offices, events, or casual meetups.
 
 ---
 
 ## 🚀 Features
 
-- 📝 Enter your name and choose pizza toppings  
+- 📝 Enter your name and select pizza toppings  
 - 🌐 Dynamic multi-language user interface with easy language switching  
-- 📋 Summary view displaying all placed orders  
+- 📋 Summary view showing all submitted orders for easy review  
 
 ---
 
@@ -25,16 +26,24 @@ Translations are stored as JSON files in the `locales` folder:
 - `locales/lang_en.json` (English)  
 - `locales/lang_de.json` (German)  
 
-Adding new languages is straightforward by adding additional JSON files.
+Adding more languages is easy by adding new JSON files.
+
+---
+
+## 🛠️ Use Cases
+
+- Collect pizza orders efficiently in small teams or gatherings  
+- Avoid confusion with multiple toppings and orders  
+- Easy language switching supports international groups  
 
 ---
 
 ## 🛠️ Roadmap
 
-- ➕ Add support for more languages  
-- 💾 Persist orders using browser local storage  
-- 📱 Improve responsiveness and mobile UI  
-- 🔌 Integrate with backend for order processing  
+- ➕ Add more language support  
+- 💾 Save orders in browser local storage  
+- 📱 Responsive UI improvements for mobile devices  
+- 🔌 Backend integration for real order processing  
 
 ---
 
