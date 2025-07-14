@@ -1,4 +1,4 @@
-/* Global layout */
+/* Layout */
 body {
     font-family: sans-serif;
     max-width: 400px;
@@ -6,23 +6,23 @@ body {
     padding: 1rem;
 }
 
-/* Name input */
+/* Input styling */
 input[type="text"] {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
 }
 
-/* Ingredient button layout */
-.zutaten {
+/* Topping grid */
+.toppings {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 1rem;
 }
 
-/* Style for each ingredient */
-.zutat {
+/* Individual topping button */
+.topping {
     position: relative;
     flex: 1 1 45%;
     background: #eee;
@@ -36,14 +36,14 @@ input[type="text"] {
     transition: background 0.3s, border 0.3s;
 }
 
-/* Selected ingredient visual */
-.zutat.selected {
+/* Selected visual style */
+.topping.selected {
     background: #dfffe0;
     border: 2px solid #4CAF50;
 }
 
-/* Green checkmark for selected ingredient */
-.zutat.selected::before {
+/* Checkmark icon */
+.topping.selected::before {
     content: '✔';
     position: absolute;
     top: 8px;
@@ -53,7 +53,7 @@ input[type="text"] {
     font-weight: bold;
 }
 
-/* Buttons */
+/* Action buttons */
 button {
     padding: 0.7rem;
     margin: 0.3rem;
@@ -61,7 +61,7 @@ button {
     font-weight: bold;
 }
 
-/* Output area for final order summary */
+/* Output box */
 #output {
     white-space: pre-wrap;
     margin-top: 2rem;
@@ -70,6 +70,7 @@ button {
     border-radius: 8px;
 }
 
+/* Language select dropdown */
 .language-select {
     padding: 0.4rem 1rem;
     border-radius: 12px;
