@@ -1,0 +1,26 @@
+{
+    "title": "Pizza-Bestellung",
+    "heading": "Pizza-Bestellung",
+    "labelName": "Name:",
+    "namePlaceholder": "Vorname eingeben",
+    "buttonNext": "Nächster",
+    "buttonFinish": "Fertig",
+    "alertNoName": "Bitte Namen eingeben!",
+    "alertNoOrders": "Keine Bestellungen vorhanden!",
+    "summaryTitle": "Pizza-Übersicht",
+    "summaryNoToppings": "(ohne extra Zutaten)",
+    "unknownName": "(Unbekannt)",
+    "wants": "möchte",
+    "ingredients": [
+        "Salami",
+        "Schinken",
+        "Pilze",
+        "Paprika",
+        "Zwiebeln",
+        "Oliven",
+        "Mozzarella",
+        "Rucola",
+        "Thunfisch",
+        "Ananas"
+    ]
+}

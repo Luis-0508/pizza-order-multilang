@@ -1,0 +1,26 @@
+{
+    "title": "Pizza Order",
+    "heading": "Pizza Order",
+    "labelName": "Name:",
+    "namePlaceholder": "Enter first name",
+    "buttonNext": "Next",
+    "buttonFinish": "Finish",
+    "alertNoName": "Please enter a name!",
+    "alertNoOrders": "No orders found!",
+    "summaryTitle": "Pizza Summary",
+    "summaryNoToppings": "(no extra toppings)",
+    "unknownName": "(Unknown)",
+    "wants": "wants",
+    "ingredients": [
+        "Salami",
+        "Ham",
+        "Mushrooms",
+        "Bell Pepper",
+        "Onions",
+        "Olives",
+        "Mozzarella",
+        "Arugula",
+        "Tuna",
+        "Pineapple"
+    ]
+}

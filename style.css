@@ -1,0 +1,89 @@
+/* Global layout */
+body {
+    font-family: sans-serif;
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* Name input */
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Ingredient button layout */
+.zutaten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Style for each ingredient */
+.zutat {
+    position: relative;
+    flex: 1 1 45%;
+    background: #eee;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid transparent;
+    transition: background 0.3s, border 0.3s;
+}
+
+/* Selected ingredient visual */
+.zutat.selected {
+    background: #dfffe0;
+    border: 2px solid #4CAF50;
+}
+
+/* Green checkmark for selected ingredient */
+.zutat.selected::before {
+    content: '✔';
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-size: 1.2rem;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    padding: 0.7rem;
+    margin: 0.3rem;
+    width: 48%;
+    font-weight: bold;
+}
+
+/* Output area for final order summary */
+#output {
+    white-space: pre-wrap;
+    margin-top: 2rem;
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.language-select {
+    padding: 0.4rem 1rem;
+    border-radius: 12px;
+    border: 2px solid #4CAF50;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    outline: none;
+}
+
+.language-select:hover,
+.language-select:focus {
+    background-color: #f0f0f0;
+    border-color: #388e3c;
+}

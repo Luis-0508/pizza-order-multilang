@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <title id="pageTitle">title</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Language selector top right -->
+    <div style="display:flex; justify-content:flex-end; margin-bottom:0.5rem;">
+        <select id="languageSelector" aria-label="Language selector" class="language-select">
+            <option value="de" selected>Deutsch</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+
+
+
+    <h2 id="heading">heading</h2>
+
+    <div id="formContainer">
+        <label for="nameInput" id="labelName">labelName</label>
+        <input type="text" id="nameInput" placeholder="namePlaceholder" />
+
+        <div class="zutaten" id="zutatenContainer"></div>
+
+        <div style="display: flex; justify-content: space-between;">
+            <button onclick="naechster()" id="buttonNext">buttonNext</button>
+            <button onclick="fertig()" id="buttonFinish">buttonFinish</button>
+        </div>
+    </div>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
