@@ -41,7 +41,7 @@ async function loadTranslations() {
             translationsCurrent = translationsEn;
         } else {
             try {
-                translationsCurrent = await fetch(`locales/translations/lang_${currentLang}.json`).then(r => r.json());
+                translationsCurrent = await fetch(`locales/lang_${currentLang}.json`).then(r => r.json());
             } catch {
                 translationsCurrent = {};
             }
