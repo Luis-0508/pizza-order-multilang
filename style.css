@@ -4,6 +4,7 @@ body {
     max-width: 400px;
     margin: auto;
     padding: 1rem;
+    box-sizing: border-box;
 }
 
 /* Input styling */
@@ -11,6 +12,8 @@ input[type="text"] {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
+    font-size: 16px; 
+    box-sizing: border-box;
 }
 
 /* Topping grid */
@@ -34,6 +37,7 @@ input[type="text"] {
     user-select: none;
     border: 2px solid transparent;
     transition: background 0.3s, border 0.3s;
+    box-sizing: border-box;
 }
 
 /* Selected visual style */
@@ -59,6 +63,8 @@ button {
     margin: 0.3rem;
     width: 48%;
     font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
 /* Output box */
@@ -68,6 +74,7 @@ button {
     background: #f0f0f0;
     padding: 1rem;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 /* Language select dropdown */
@@ -77,14 +84,37 @@ button {
     border: 2px solid #4CAF50;
     background-color: #ffffff;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
     outline: none;
+    box-sizing: border-box;
 }
 
 .language-select:hover,
 .language-select:focus {
     background-color: #f0f0f0;
     border-color: #388e3c;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 420px) {
+    body {
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+
+    .topping {
+        flex: 1 1 100%;
+    }
+
+    button {
+        width: 100%;
+        margin: 0.25rem 0;
+    }
+
+    div[style*="justify-content: space-between"] {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 }
