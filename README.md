@@ -50,3 +50,10 @@ Adding more languages is easy by adding new JSON files.
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🔗 Live Demo
+
+Try out the app here:  
+[https://Luis-0508.github.io/pizza-order-tool/](https://Luis-0508.github.io/pizza-order-tool/)
